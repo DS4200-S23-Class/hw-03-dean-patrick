@@ -1,14 +1,212 @@
 <!DOCTYPE html>
-<html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>hw-03</title>
+  </head>
 
-<head>
-    <meta charset=utf-8/>
-</head>
-
-
-<body>
-
-
-</body>
-
+  <body>
+    <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>
+    <div id="column-container">
+      <div class="column">
+        <img src="./img/vis1.png" alt="Visualization 1" />
+        <br />
+        <br />
+        <br />
+        <img src="./img/vis2.png" alt="Visualization 2" />
+        <br />
+        <br />
+        <br />
+        <img src="./img/vis3.png" alt="Visualization 3" />
+      </div>
+      <div class="column">
+        <h2>Marks</h2>
+        <ul>
+          <li>
+            The vote count bar above the map is a mark. This is an area mark as
+            each vote total is given a portion of the total rectangle.
+          </li>
+          <li>
+            Each state on the map is a mark. These are area marks as each state
+            is shaped like the state in the real world.
+          </li>
+          <li>
+            The electoral vote counts below the map are marks. These are point
+            marks.
+          </li>
+        </ul>
+        <h2>Channels</h2>
+        <ul>
+          <li>Shape</li>
+          <ul>
+            <li>Represents sequential quantitative attribute of vote count</li>
+            <li>
+              This is a good choice as the side with more votes is larger than
+              the side with less votes.
+            </li>
+          </ul>
+          <li>
+            Position
+            <ul>
+              <li>
+                Represents categorical attribute of Democrat vs Republican
+              </li>
+              <li>
+                The bar representing the Democrat vote total is placed on the
+                left, while the bar representing the Republican vote total is
+                placed on the right. This is a good choice as the Democratic
+                Party is generally seen as left-wing while the Republican Party
+                is seen as right-wing.
+              </li>
+            </ul>
+          </li>
+          <li>Color</li>
+          <ul>
+            <li>Represents categorical attribute of Democrat vs Republican</li>
+            <li>
+              This is a good choice because the Democrat Party is traditionally
+              colored blue and the Republican Party is traditionally colored
+              red. So, these colors distinguish the two parties and the colors
+              themselves make sense for each party.
+            </li>
+          </ul>
+        </ul>
+        <h2>Colormaps</h2>
+        <ul>
+          <li>Categorical</li>
+          <ul>
+            <li>Represents attribute of Democrat vs Republican</li>
+            <li>
+              This is a good choice because the two political parties are
+              different categories, and the colors used are representative of
+              each political party and are distant from one another.
+            </li>
+          </ul>
+        </ul>
+        <br />
+        <h2>Marks</h2>
+        <ul>
+          <li>Every datapoint in the visualization is a point mark.</li>
+        </ul>
+        <h2>Channels</h2>
+        <ul>
+          <li>Position</li>
+          <ul>
+            <li>
+              Left to right position indicates the sequential quantitative exit
+              velocity attribute, and top to bottom position indicates the
+              diverging quantitative launch angle attribute.
+            </li>
+            <li>
+              This is a good choice because balls that were hit farther are to
+              the right, as they have a higher exit velocity. Balls that are hit
+              at a higher angle are located towards the top of the
+              visualization.
+            </li>
+          </ul>
+          <li>Color</li>
+          <ul>
+            <li>
+              A stronger orange color means a hit of high scoring value, which a
+              stronger purple color means a hit of low scoring value. Scoring
+              value is a diverging quantitative attribute.
+            </li>
+            <li>
+              This is a mostly good choice because the strong orange color
+              conveys excitement and action, while the soft purple color conveys
+              calm. One aspect of the coloring that I don't agree with is the
+              white midpoint, as it is difficult to see against the soft gray
+              backgound color of the visualization.
+            </li>
+          </ul>
+        </ul>
+        <h2>Colormaps</h2>
+        <ul>
+          <li>Divergent</li>
+          <ul>
+            <li>
+              An orange color means a hit of high scoring value, which a purple
+              color means a hit of low scoring value. Scoring
+              value is a diverging quantitative attribute.
+            </li>
+            <li>
+              It was a good choice to use a divergent colormap here, as the
+              midpoint color (white) indicates average, while points below
+              average are purple and points above average are assigned orange.
+              The two colors are used to show the two extremes of the range,
+              making a divergent colormap a good choice.
+            </li>
+          </ul>
+        </ul>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>Marks</h2>
+        <ul>
+          <li>Each bar in the visualization is a one-dimensional line mark</li>
+        </ul>
+        <h2>Channels</h2>
+        <ul>
+          <li>Position</li>
+          <ul>
+            <li>
+              Represents attribute of type categorical for major and type
+              ordinal sequential for the number of people
+            </li>
+            <li>
+              This is a good mapping because we can accurately judge the stark
+              contrast between the general amount of people between various
+              majors
+            </li>
+          </ul>
+          <li>Color</li>
+          <ul>
+            <li>
+              Represents attribute of type categorical for the number of men and
+              women within each major
+            </li>
+            <li>
+              This is a good mapping because we can accurately judge the
+              differences between the amount of men and women within each major.
+            </li>
+          </ul>
+        </ul>
+        <h2>Colormaps</h2>
+        <ul>
+          <li>Categorical</li>
+          <ul>
+            <li>
+              Represents attribute of type categorical, the two categories being
+              men and women
+            </li>
+            <li>
+              This is a good mapping because the colors are perceptually
+              distinct and similar saturation
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <h1>Acknowledgements</h1>
+    <div>
+      <ul>
+        <li>https://www.w3schools.com/howto/howto_css_two_columns.asp</li>
+      </ul>
+    </div>
+  </body>
 </html>
